@@ -27,7 +27,7 @@ def addygen():
         d = addy[3].split(',')[-1]
         mainaddress = ('{} {} {} {} \n').format(a,b,c,d)
         mainaddress1 = ('{} {} {} {}').format(a,b,c,d)
-        addys = open('C:\\Users\\Khush Chauhan\\Desktop\\SNS SCRIPT\\addesses.txt','a')
+        addys = open('yourfilepath+\\addesses.txt','a')
         addys.write(str(mainaddress))
         print(mainaddress1)
     addys.close()
