@@ -16,7 +16,7 @@ def writer():
     if I1 == 'exit':
         os.system('exit')
     else:
-        document = open('C:\\Users\\Khush Chauhan\\Desktop\\GitHubRepo\\document.txt','a')
+        document = open('yourfilepath+\\document.txt','a')
         I2 = '{}\n'.format(I1)
         document.write(I2)
         document.close()
